@@ -201,12 +201,12 @@ li{
     left: 400px;
     display: flex;
     justify-content: space-between;
-    width: 31%;
+    width: 30.5%;
 }
 .wheel img {
     width: 100px;
     height: 100px;
-    animation: rotate 10s ease-in-out infinite;
+    animation: rotate 7s infinite;
 }
 .carbody {
     position: relative;
@@ -235,7 +235,7 @@ li{
         transform: rotate(0);
     }
     100% {
-        transform: rotate(7turn);
+        transform: rotate(4turn);
     }
 }
 @keyframes translate {
